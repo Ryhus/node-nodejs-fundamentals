@@ -11,7 +11,7 @@ const lineNumberer = () => {
     transform(chunk, encoding, callback) {
       const text = chunk.toString();
       const lines = text.trim().split("\n");
-      console.log(lines);
+
       const preapended = lines
         .map((line, index) => `${index + 1} | ${line}\n`)
         .join("");
