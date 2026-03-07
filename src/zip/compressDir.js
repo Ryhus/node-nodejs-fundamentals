@@ -11,20 +11,8 @@ const compressDir = async () => {
   // Save to workspace/compressed/
   // Use Streams API
 
-  const pathToFiles = path.resolve(
-    process.cwd(),
-    "home",
-    "user",
-    "workspace",
-    "toCompress",
-  );
-  const targetDir = path.resolve(
-    process.cwd(),
-    "home",
-    "user",
-    "workspace",
-    "compressed",
-  );
+  const pathToFiles = "./home/user/workspace/toCompress";
+  const targetDir = "./home/user/workspace/compressed";
 
   try {
     await access(pathToFiles);
@@ -45,7 +33,9 @@ const compressDir = async () => {
 
   for (const file of fullPathes) {
     const st = await stat(file);
-    const pathBuf = Buffer.from(file);
+
+    const relativePath = path.relative(pathToFiles, file);
+    const pathBuf = Buffer.from(relativePath);
     const pathLen = Buffer.alloc(4);
     pathLen.writeUInt32BE(pathBuf.length);
 
