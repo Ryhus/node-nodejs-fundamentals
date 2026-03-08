@@ -11,18 +11,8 @@ const verify = async () => {
   // Calculate SHA256 hash using Streams API
   // Print result: filename — OK/FAIL
 
-  const pathTofilesDirectory = path.resolve(
-    process.cwd(),
-    "src",
-    "hash",
-    "files",
-  );
-  const pathToChecksums = path.resolve(
-    process.cwd(),
-    "src",
-    "hash",
-    "checksums.json",
-  );
+  const pathTofilesDirectory = "./src/hash/files";
+  const pathToChecksums = "./src/hash/checksums.json";
 
   async function hashFile(file, pathTofilesDirectory) {
     const hash = createHash("sha256");
