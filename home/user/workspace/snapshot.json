@@ -1,0 +1,49 @@
+{
+  "rootPath": "home/user/workspace",
+  "entries": [
+    {
+      "path": "file1.txt",
+      "type": "file",
+      "size": 4,
+      "content": "bG9sMQ=="
+    },
+    {
+      "path": "subdir",
+      "type": "directory"
+    },
+    {
+      "path": "snapshot.json",
+      "type": "file",
+      "size": 731,
+      "content": "ewogICJyb290UGF0aCI6ICJob21lL3VzZXIvd29ya3NwYWNlIiwKICAiZW50cmllcyI6IFsKICAgIHsKICAgICAgInBhdGgiOiAiZmlsZTEudHh0IiwKICAgICAgInR5cGUiOiAiZmlsZSIsCiAgICAgICJzaXplIjogNCwKICAgICAgImNvbnRlbnQiOiAiYkc5c01RPT0iCiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJzdWJkaXIiLAogICAgICAidHlwZSI6ICJkaXJlY3RvcnkiCiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJtZXJnZWQudHh0IiwKICAgICAgInR5cGUiOiAiZmlsZSIsCiAgICAgICJzaXplIjogMywKICAgICAgImNvbnRlbnQiOiAiWVFwaSIKICAgIH0sCiAgICB7CiAgICAgICJwYXRoIjogInBhcnRzIiwKICAgICAgInR5cGUiOiAiZGlyZWN0b3J5IgogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAic3ViZGlyL25lc3RlZC50eHQiLAogICAgICAidHlwZSI6ICJmaWxlIiwKICAgICAgInNpemUiOiA3LAogICAgICAiY29udGVudCI6ICJibVZ6ZEdWa01RPT0iCiAgICB9LAogICAgewogICAgICAicGF0aCI6ICJwYXJ0cy9maWxlMi50eHQiLAogICAgICAidHlwZSI6ICJmaWxlIiwKICAgICAgInNpemUiOiAxLAogICAgICAiY29udGVudCI6ICJZZz09IgogICAgfSwKICAgIHsKICAgICAgInBhdGgiOiAicGFydHMvZmlsZTEudHh0IiwKICAgICAgInR5cGUiOiAiZmlsZSIsCiAgICAgICJzaXplIjogMiwKICAgICAgImNvbnRlbnQiOiAiWVFvPSIKICAgIH0KICBdCn0="
+    },
+    {
+      "path": "merged.txt",
+      "type": "file",
+      "size": 3,
+      "content": "YQpi"
+    },
+    {
+      "path": "parts",
+      "type": "directory"
+    },
+    {
+      "path": "subdir/nested.txt",
+      "type": "file",
+      "size": 7,
+      "content": "bmVzdGVkMQ=="
+    },
+    {
+      "path": "parts/file2.txt",
+      "type": "file",
+      "size": 1,
+      "content": "Yg=="
+    },
+    {
+      "path": "parts/file1.txt",
+      "type": "file",
+      "size": 2,
+      "content": "YQo="
+    }
+  ]
+}
