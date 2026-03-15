@@ -28,12 +28,10 @@ const merge = async () => {
   }
 
   const filesProvided = filesToMerge.length > 0;
-  console.log(filesToMerge);
   try {
     if (filesProvided) {
       filesToMerge.forEach((fileName) => {
         const fName = path.extname(fileName) === "" ? fileName + ext : fileName;
-        console.log(fName);
         const pathToEntrie = path.join(pathToParts, fName);
         pathesToFiles.push(pathToEntrie);
       });
