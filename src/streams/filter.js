@@ -25,7 +25,6 @@ const filter = () => {
         for (const line of lines) {
           if (pattern.test(line)) {
             this.push(line + "\n");
-            callback();
           }
         }
       } catch {
